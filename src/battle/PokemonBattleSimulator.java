@@ -7,7 +7,7 @@ import src.pokemon.volcanion_family.*;
 
 
 public class PokemonBattleSimulator {
-    public static void main(String[] args) {
+    public static void battle() {
         Battle battle = new Battle();
 
         Pokemon ally1 = new Volcanion("Вулканчик", 1);
